@@ -33,27 +33,27 @@ cd api_notes
 
 3. Run CMake to configure the project:
    UNIX:
-   `sh
+   ```sh
     cmake ..
-    `
+   ```
    WIN32:
-   `sh
+   ```sh
     cmake .. -G "MinGW Makefiles"
-    `
+   ```
 
 4. Build the project:
    UNIX:
-   `sh
+   ```sh
     cmake --build .
-    `
+   ```
    or
-   `sh
+   ```sh
     make
-    `
+   ```
    WIN32:
-   `sh
+   ```sh
     mingw32-make
-    `
+   ```
 
 ---
 
