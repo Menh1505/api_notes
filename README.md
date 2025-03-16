@@ -14,6 +14,7 @@
 ---
 
 ## Building the Project
+### Require [Asio C++ Library](https://think-async.com/Asio/)
 
 To build the project, follow these steps:
 
@@ -32,6 +33,7 @@ cd api_notes
    ```
 
 3. Run CMake to configure the project:
+
    UNIX:
    ```sh
     cmake ..
@@ -42,6 +44,7 @@ cd api_notes
    ```
 
 4. Build the project:
+   
    UNIX:
    ```sh
     cmake --build .
